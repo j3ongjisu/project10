@@ -24,4 +24,31 @@ $(function () {
   });
 
 
+  $('.main_company .arrows .left').on('click', function () {
+    $('.company_slide').slick('slickPrev');
+  });
+  $('.main_company .arrows .right').on('click', function () {
+    $('.company_slide').slick('slickNext');
+  });
+
+
+  $('.company_slide').slick({
+    slidesToShow: 3,
+    arrows: false,
+    dots: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+  });
+
+
+  $('.main_service .itm').on('click', function () {
+    $(this).addClass('on').siblings().removeClass('on');
+  });
+
 })
