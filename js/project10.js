@@ -48,6 +48,12 @@ $(function () {
     ]
   });
 
+  $('.mobile_btn').on('click', function () {
+    $(this).toggleClass('on');
+    $('.gnb').toggleClass('on');
+  });
+
+
 
   $('.main_service .itm').on('click', function () {
     $(this).addClass('on').siblings().removeClass('on');
