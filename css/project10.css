@@ -1456,7 +1456,7 @@
   .mainVisual .itm01 .slide_txt {
     position: absolute;
     top: 30%;
-    left: 15%;
+    left: 12%;
     transform: translate(0, -50%);
     text-align: center;
   }
@@ -1508,8 +1508,8 @@
 
   .mainVisual .itm03 .slide_txt {
     position: absolute;
-    top: 47%;
-    left: 19%;
+    top: 43%;
+    left: 18%;
     transform: translate(0, 0);
     text-align: center;
     color: #fff;
@@ -1534,8 +1534,8 @@
   .mainVisual .slick-dots {
     position: absolute;
     bottom: 0;
-    left: 0;
-    transform: translate(50%, 0);
+    left: 20%;
+    transform: translate(0, 0);
     z-index: 999;
   }
 
@@ -2205,7 +2205,7 @@
     padding: 0 20px;
     margin: 0 0 10px 0;
     width: 300px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 500;
     color: #fff;
     justify-content: center;
@@ -2325,17 +2325,17 @@
   }
 
   .main_about .about_box .txt_box .about_txt {
-    margin: 0 0 10px 0;
+    margin: 0 0 30px 0;
   }
 
   .main_about .about_box .txt_box .about_txt h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 600;
     margin: 0 0 15px 0;
   }
 
   .main_about .about_box .txt_box .about_txt p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 1.3;
     margin: 0 0 10px 0;
@@ -2417,7 +2417,6 @@
 
   .footer .ft_box .ft_right {
     position: relative;
-    padding: 65px 0 0 0;
   }
 
   .footer .ft_box .ft_right::before {
@@ -2426,7 +2425,7 @@
     width: 1px;
     height: 200px;
     top: 25%;
-    left: -12%;
+    left: -18%;
     background: #eee;
   }
 
