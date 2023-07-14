@@ -47,6 +47,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 18px 0 0 0;
   height: 85px;
   transition: 0.5s;
 }
@@ -1191,6 +1192,7 @@
   font-size: 1rem;
   font-weight: 500;
   color: #777;
+  padding: 65px 0 0 0;
   margin: 0 0 10px 0;
 }
 
@@ -1198,13 +1200,14 @@
   font-size: 1rem;
   font-weight: 500;
   color: #777;
-  margin: 0 0 10px 0;
+  margin: 0 0 20px 0;
 }
 
 .footer .ft_box .ft_right address span {
   font-size: 0.8rem;
   font-weight: 500;
   color: #777;
+  margin: 0 0 120px 0;
 }
 
 
@@ -1310,7 +1313,7 @@
 
   .header h1 img {
     display: inline-block;
-    margin: 0 0 0 0;
+    margin: 16px 0 0 30px;
     width: 200px;
     vertical-align: middle;
   }
